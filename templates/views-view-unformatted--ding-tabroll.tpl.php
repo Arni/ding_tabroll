@@ -9,7 +9,7 @@
 ?>
 <div class="frontpage-header">
     <div class="ding-tabroll-wrapper">
-        <div id="ding-tabroll" class="big-frontpage-image-wrapper">
+        <div id="ding-tabroll" class="ding-tabroll big-frontpage-image-wrapper">
                 <?php foreach ($rows as $id => $row): ?>
                   <div id="fragment-<?php print $id; ?>" class="ui-tabs-panel<?php if ($id >= "1") {
                   print " ui-tabs-hide";

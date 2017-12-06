@@ -6,7 +6,7 @@
 (function ($) {
 
   $(document).ready(function($) {
-    var tabroll = $('#ding-tabroll');
+    var tabroll = $('.ding-tabroll');
     //var tabroll_select = $('.ding-tabroll-select-tabs');
 
     // Hack to check if tab have been tab_selected, as unbind event will not work.
