@@ -9,8 +9,8 @@
 ?>
 <div class="frontpage-header">
     <div class="big-frontpage-image-wrapper">
-<div class="ding-tabroll-wrapper" style="overflow: visible">
-  <div id="ding-tabroll" class="ding-tabroll" style="overflow: visible">
+<div class="ding-tabroll-wrapper" >
+  <div id="ding-tabroll" class="ding-tabroll" >
     <ul class="ui-tabs-nav" style="display: none">
       <?php foreach ($view->result as $i => $result) : ?>
         <li class="ui-tabs-nav-item count-<?php print $i; ?>"><a href="#fragment-<?php print $i; ?>"><span><?php print $result->node_title; ?></span></a></li>
@@ -18,7 +18,7 @@
     </ul>
   
     <?php foreach ($rows as $id => $row): ?>
-      <div id="fragment-<?php print $id; ?>" class="ui-tabs-panel<?php if ($id >= "1") { print " ui-tabs-hide"; } ?>" style="float:left; width: 100%">
+      <div id="fragment-<?php print $id; ?>" class="ui-tabs-panel<?php if ($id >= "1") { print " ui-tabs-hide"; } ?>" >
         <?php print $row; ?>
       </div>
     <?php endforeach; ?>

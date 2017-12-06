@@ -58,6 +58,7 @@ function ding_tabroll_preprocess($variables) {
 
   // Add default CSS and JavaScript.
   drupal_add_js($path . '/js/ding_tabroll.js');
+  drupal_add_css($path . '/css/ding_tabroll.css');
 
   // Add fix to get tabs rotate back.
   // @see http://jqueryui.com/upgrade-guide/1.9/#removed-rotate-method
