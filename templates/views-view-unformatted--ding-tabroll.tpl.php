@@ -17,7 +17,7 @@
     </ul>
   
     <?php foreach ($rows as $id => $row): ?>
-      <div id="fragment-<?php print $id; ?>" class="ui-tabs-panel<?php if ($id >= "1") { print " ui-tabs-hide"; } ?>" style="width:100%">
+      <div id="fragment-<?php print $id; ?>" class="ui-tabs-panel<?php if ($id >= "1") { print " ui-tabs-hide"; } ?>" style="float:left">
         <?php print $row; ?>
       </div>
     <?php endforeach; ?>
