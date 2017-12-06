@@ -8,8 +8,9 @@
  */
 ?>
 <div class="frontpage-header">
-<div class="ding-tabroll-wrapper">
-  <div id="ding-tabroll" class="ding-tabroll">
+    <div class="big-frontpage-image-wrapper">
+<div class="ding-tabroll-wrapper" style="overflow: visible">
+  <div id="ding-tabroll" class="ding-tabroll" style="overflow: visible">
     <ul class="ui-tabs-nav" style="display: none">
       <?php foreach ($view->result as $i => $result) : ?>
         <li class="ui-tabs-nav-item count-<?php print $i; ?>"><a href="#fragment-<?php print $i; ?>"><span><?php print $result->node_title; ?></span></a></li>
@@ -30,6 +31,7 @@
     <?php endforeach; ?>
   </select>
 </div>
+         </div>
             <div class="frontpage-header-navigation">
             <div class="genre-list">
                 <div class="frontpage-links-wrapper">
